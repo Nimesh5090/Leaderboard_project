@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #0f133e;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+
+.h1{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.input{
+    max-width: 838px;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color: #1179ce;
+    padding-left: 10px;
+    margin:50px;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-right: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.txt{
+    width: 150px;
+    height: 50px;
+}
+
+.div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.active{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    width: 838px;
+    padding : 30px 10px;
+    margin :15px 0px 0px 15px;
+   color: #ffffff;
+   background:rgb(17, 121, 206);
+}
+
+.delete{
+    color: #ffffff;
+    border: none;
+    background-color: rgb(17, 121, 206);
+}
+
+.plus{
+    color: #ffffff;
+    border: none;
+    background-color: rgb(17, 121, 206); 
+}
+
+.minus{
+    color: #ffffff;
+    border: none;
+    background-color: rgb(17, 121, 206); 
+}
